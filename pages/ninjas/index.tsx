@@ -21,7 +21,7 @@ const Ninjas = ({ ninjas }: any) => {
                 <meta name="keywords" content="ninja" />
             </Head>
             <div>
-                All ninjas
+                <h1>All Ninjas</h1>
                 {ninjas.map((ninja: any) => {
                     return (
                         <Link key={ninja.id} className={styles.single} href={`/ninjas/${ninja.id}`}>

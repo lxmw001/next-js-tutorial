@@ -40,7 +40,7 @@ const Details = ({ ninja }: any) => {
                 <meta name="keywords" content="ninja" />
             </Head>
             <div>
-                Ninja Detail
+                <h1>Ninja Detail</h1>
                 <p>{ninja.name}</p>
                 <p>{ninja.email}</p>
                 <p>{ninja.website}</p>

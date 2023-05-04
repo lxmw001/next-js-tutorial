@@ -1,7 +1,17 @@
+import Head from "next/head";
+
 const About = () => {
-    return (<div>
-        About page
-    </div>);
+    return (
+        <>
+            <Head>
+                <title>Ninja List | About</title>
+                <meta name="keywords" content="ninja" />
+            </Head>
+            <div>
+                About page
+            </div>)
+        </>
+    );
 }
- 
+
 export default About;
